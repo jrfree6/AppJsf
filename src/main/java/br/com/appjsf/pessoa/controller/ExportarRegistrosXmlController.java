@@ -95,7 +95,7 @@ public class ExportarRegistrosXmlController implements Serializable {
 			String nomeArquivo =  "pessoas_".concat(java.util.UUID.randomUUID().toString()).concat(".xml");
 			
 			//CAMINHO ONDE VAI SER GERADO O ARQUIVO XML
-			File arquivo = new File("/home/cicero/gerados/".concat(nomeArquivo));
+			File arquivo = new File("/home/appjsf/gerados/".concat(nomeArquivo));
 			
 			FileWriter fileWriter =  new FileWriter(arquivo);
 			
