@@ -1,4 +1,4 @@
-package br.com.ciceroednilson.pessoa.controller;
+package br.com.appjsf.pessoa.controller;
 
 
 import java.io.IOException;
@@ -17,10 +17,10 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import br.com.ciceroednilson.model.PessoaModel;
-import br.com.ciceroednilson.repository.PessoaRepository;
-import br.com.ciceroednilson.usuario.controller.UsuarioController;
-import br.com.ciceroednilson.uteis.Uteis;
+import br.com.appjsf.model.PessoaModel;
+import br.com.appjsf.repository.PessoaRepository;
+import br.com.appjsf.usuario.controller.UsuarioController;
+import br.com.appjsf.uteis.Uteis;
 
 @Named(value="cadastrarPessoaController")
 @RequestScoped

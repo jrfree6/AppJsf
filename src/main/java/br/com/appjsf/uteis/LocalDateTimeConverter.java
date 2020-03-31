@@ -1,4 +1,4 @@
-package br.com.ciceroednilson.uteis;
+package br.com.appjsf.uteis;
 
 import java.time.Instant;
 import java.time.LocalDateTime;

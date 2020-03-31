@@ -1,12 +1,12 @@
-package br.com.ciceroednilson.repository;
+package br.com.appjsf.repository;
 
 import java.io.Serializable;
 
 import javax.persistence.Query;
 
-import br.com.ciceroednilson.model.UsuarioModel;
-import br.com.ciceroednilson.repository.entity.UsuarioEntity;
-import br.com.ciceroednilson.uteis.Uteis;
+import br.com.appjsf.model.UsuarioModel;
+import br.com.appjsf.repository.entity.UsuarioEntity;
+import br.com.appjsf.uteis.Uteis;
 
 
 public class UsuarioRepository implements Serializable {

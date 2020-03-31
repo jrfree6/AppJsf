@@ -8,6 +8,7 @@
 	xmlns:p="http://primefaces.org/ui">
 
 <h:head>
+
 </h:head>
 
 <ui:composition template="/template/layoutBase.xhtml">
@@ -45,9 +46,12 @@
 	            			  		 maxlength="80" 
 	            			      	 value="#{cadastrarPessoaController.pessoaModel.email}"
 	            			         required="true"
-	            				     requiredMessage="O email é de preenchimento obrigatório"/>           		
-
-
+	            				     requiredMessage="O email é de preenchimento obrigatório">
+	            				     <f:validateRegex
+							pattern="^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$" />
+					
+						</p:inputText> 
+						            				     
 	            		<p:outputLabel value="Endereço" for="inputText-endereco"/>
 	            		<p:inputText id="inputText-endereco" 
 	            					 style="width:400px" 

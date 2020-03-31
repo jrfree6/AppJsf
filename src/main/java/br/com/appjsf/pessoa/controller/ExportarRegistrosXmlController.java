@@ -1,4 +1,4 @@
-package br.com.ciceroednilson.pessoa.controller;
+package br.com.appjsf.pessoa.controller;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -19,8 +19,8 @@ import org.jdom.output.XMLOutputter;
 import org.primefaces.model.DefaultStreamedContent;
 import org.primefaces.model.StreamedContent;
 
-import br.com.ciceroednilson.model.PessoaModel;
-import br.com.ciceroednilson.repository.PessoaRepository;
+import br.com.appjsf.model.PessoaModel;
+import br.com.appjsf.repository.PessoaRepository;
 
 @Named(value="exportarRegistrosXmlController")
 @RequestScoped

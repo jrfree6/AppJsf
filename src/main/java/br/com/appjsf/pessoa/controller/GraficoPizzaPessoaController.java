@@ -1,4 +1,4 @@
-package br.com.ciceroednilson.pessoa.controller;
+package br.com.appjsf.pessoa.controller;
 
 import java.util.Hashtable;
 
@@ -9,7 +9,7 @@ import javax.inject.Named;
 
 import org.primefaces.model.chart.PieChartModel;
 
-import br.com.ciceroednilson.repository.PessoaRepository;
+import br.com.appjsf.repository.PessoaRepository;
 
 @Named(value="graficoPizzaPessoaController")
 @RequestScoped

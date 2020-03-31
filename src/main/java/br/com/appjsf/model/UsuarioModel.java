@@ -1,4 +1,4 @@
-package br.com.ciceroednilson.model;
+package br.com.appjsf.model;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package br.com.ciceroednilson.filters;
+package br.com.appjsf.filters;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package br.com.ciceroednilson.uteis;
+package br.com.appjsf.uteis;
 
 import javax.faces.application.FacesMessage;
 import javax.faces.context.ExternalContext;

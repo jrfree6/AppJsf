@@ -1,4 +1,4 @@
-package br.com.ciceroednilson.filters;
+package br.com.appjsf.filters;
 
 import java.io.IOException;
 import javax.servlet.Filter;
@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import br.com.ciceroednilson.model.UsuarioModel;
+import br.com.appjsf.model.UsuarioModel;
 
 @WebFilter("/sistema/*")
 public class AutenticacaoFilter implements Filter {

@@ -1,4 +1,4 @@
-package br.com.ciceroednilson.usuario.controller;
+package br.com.appjsf.usuario.controller;
 
 import java.io.Serializable;
 
@@ -9,10 +9,10 @@ import javax.inject.Named;
 
 import org.apache.commons.lang3.StringUtils;
 
-import br.com.ciceroednilson.model.UsuarioModel;
-import br.com.ciceroednilson.repository.UsuarioRepository;
-import br.com.ciceroednilson.repository.entity.UsuarioEntity;
-import br.com.ciceroednilson.uteis.Uteis;
+import br.com.appjsf.model.UsuarioModel;
+import br.com.appjsf.repository.UsuarioRepository;
+import br.com.appjsf.repository.entity.UsuarioEntity;
+import br.com.appjsf.uteis.Uteis;
 
 @Named(value="usuarioController")
 @SessionScoped

@@ -1,4 +1,4 @@
-package br.com.ciceroednilson.repository;
+package br.com.appjsf.repository;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -10,11 +10,11 @@ import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.persistence.Query;
 
-import br.com.ciceroednilson.model.PessoaModel;
-import br.com.ciceroednilson.model.UsuarioModel;
-import br.com.ciceroednilson.repository.entity.PessoaEntity;
-import br.com.ciceroednilson.repository.entity.UsuarioEntity;
-import br.com.ciceroednilson.uteis.Uteis;
+import br.com.appjsf.model.PessoaModel;
+import br.com.appjsf.model.UsuarioModel;
+import br.com.appjsf.repository.entity.PessoaEntity;
+import br.com.appjsf.repository.entity.UsuarioEntity;
+import br.com.appjsf.uteis.Uteis;
 
 public class PessoaRepository {
 

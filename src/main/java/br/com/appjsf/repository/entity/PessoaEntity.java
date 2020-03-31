@@ -1,4 +1,4 @@
-package br.com.ciceroednilson.repository.entity;
+package br.com.appjsf.repository.entity;
 
 import java.time.LocalDateTime;
 

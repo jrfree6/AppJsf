@@ -1,4 +1,4 @@
-package br.com.ciceroednilson.pessoa.controller;
+package br.com.appjsf.pessoa.controller;
 
 import java.io.Serializable;
 import java.util.List;
@@ -9,8 +9,8 @@ import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import br.com.ciceroednilson.model.PessoaModel;
-import br.com.ciceroednilson.repository.PessoaRepository;
+import br.com.appjsf.model.PessoaModel;
+import br.com.appjsf.repository.PessoaRepository;
 
 @Named(value="consultarPessoaCarouselController")
 @ViewScoped
